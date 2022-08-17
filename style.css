@@ -1,0 +1,71 @@
+body {
+    background-color: #1b1b32;
+    background-attachment: fixed;
+    margin-top: 5%;
+}
+
+/* it was quite difficult to justify text and and made text read from ltr*/
+/* so instead i used margin: 0 auto; width: 30em;  it works so perfectly.*/
+main {
+    font-family: sans-serif;
+    text-align: justify;
+    color: white;
+    margin: 0 auto;
+    width: 30em;
+    line-height: 140%;
+}
+
+h1,
+.unique {
+    text-align: center;
+}
+
+#lName {
+    width: 100%;
+}
+
+a {
+    color: rgb(21, 20, 20);
+}
+
+/* there was a lot of issue moving the submit button to the center, so i */
+/* display: block; margin: 0 auto and it works perfectly */
+.submit {
+    display: block;
+    margin: 0 auto;
+    background-color: #1b1b32;
+    border-color: white;
+    color: white;
+    width: 50%;
+    padding: 7px;
+}
+
+hr {
+    color: rgb(14, 27, 38);
+}
+
+input,
+textarea {
+    background-color: rgb(8, 8, 31);
+    color: white;
+}
+
+input {
+    border-color: rgb(8, 8, 31);
+    border: 2px;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+::placeholder {
+    font-style: italic;
+}
+
+/* you usually dont get a long input box for file, so i used the width:100% and it worked */
+.file {
+    width: 100%;
+}
+
+#information {
+    padding: 6px;
+}
